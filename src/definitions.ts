@@ -1,3 +1,4 @@
 export interface ReferralPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  getInstallReferrer(options: { value: string }): Promise<{ value: string }>;
+  handleOpenUrl(options: { url: string }): Promise<{ url: string }>;
 }

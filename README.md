@@ -11,9 +11,43 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`getInstallReferrer(...)`](#getinstallreferrer)
+* [`handleOpenUrl(...)`](#handleopenurl)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### getInstallReferrer(...)
+
+```typescript
+getInstallReferrer(options: { value: string; }) => Promise<{ value: string; }>
+```
+
+| Param         | Type                            |
+| ------------- | ------------------------------- |
+| **`options`** | <code>{ value: string; }</code> |
+
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### handleOpenUrl(...)
+
+```typescript
+handleOpenUrl(options: { url: string; }) => Promise<{ url: string; }>
+```
+
+| Param         | Type                          |
+| ------------- | ----------------------------- |
+| **`options`** | <code>{ url: string; }</code> |
+
+**Returns:** <code>Promise&lt;{ url: string; }&gt;</code>
+
+--------------------
+
 </docgen-api>
